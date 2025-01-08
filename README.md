@@ -22,19 +22,19 @@
 <p align="center">
  Slots: Slots are pieces of information that a chatbot needs to complete a user's request By adding custom slots in utterances, my chatbot's user experience is  enhanced- the bot will automatically register which account type the user is trying to check, and will [explain how this saves the bot from asking for the account ] I created a custom slot type to represent the different account types that a banking customers could have.A customers slot type was required as the default slot types did not accommodate for account type (e.g
  Checking,Savings & Credit:) <br/>
- <img src="images/lx1.png" height="80%" width="80%" alt="key steps"/>
+ <img src="images/lx10.png" height="80%" width="80%" alt="key steps"/>
 <br />
  
 <br />
   Connecting slots with intents:This slot type has restricted slot values, which means' the chatbot will only respond to the slot type provided. we made sure that our BankerBot only recognizes and accepts the bank account types we offer. I associated my custom slot with CheckBalance, which is a new intent i created that helps my bank's customers check its users account balances.
   <br/>
-<img src="images/lx2.png" height="80%" width="80%" alt="key steps"/>
+<img src="images/lx13.png" height="80%" width="80%" alt="key steps"/>
 <br />
 
 <br />
  Slot values in utterances: I included slot values in some of the utterances (i.e. user inputs) by... For example'.I defined the utterance "Whatʼs the balance in my {accountType} account?".This is an example of an utterance that expects the slot account
  Type.<br/>
-<img src="images/lx3.png" height="80%" width="80%" alt="key steps"/>
+<img src="images/lx14.png" height="80%" width="80%" alt="key steps"/>
 <br />
 </p>
 
